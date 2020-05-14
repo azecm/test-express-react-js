@@ -1,0 +1,16 @@
+{
+  "verbose": false,
+  "ignore": [
+    ".git",
+    "node_modules/**/node_modules"
+  ],
+  "watch": [
+    "server/**/*.js"
+  ],
+  "env": {
+    "NODE_ENV": "development",
+    "PORT": "8081"
+  },
+  "ext": "js",
+  "exec": "node ./server/app.js"
+}
